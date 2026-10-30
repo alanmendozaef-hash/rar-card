@@ -1,6 +1,6 @@
 {
- "version": "2026-10-30T16:14:29+00:00",
- "updated": "2026-10-30T16:14:29+00:00",
+ "version": "2026-10-30T23:08:45+00:00",
+ "updated": "2026-10-30T23:08:45+00:00",
  "participants": [
   {
    "id": "alexa-lem",
@@ -351,6 +351,30 @@
    "vertical": "referral",
    "source": "Referral general",
    "at": "2026-10-29T23:38:31.000Z"
+  },
+  {
+   "pid": "marianne-rodriguez",
+   "vertical": "referral",
+   "source": "Referral general",
+   "at": "2026-10-30T23:08:01.000Z"
+  },
+  {
+   "pid": "marianne-rodriguez",
+   "vertical": "ambassador",
+   "source": "Ambassador",
+   "at": "2026-10-30T23:08:02.000Z"
+  },
+  {
+   "pid": "marianne-rodriguez",
+   "vertical": "referral",
+   "source": "Referral general",
+   "at": "2026-10-30T23:08:03.000Z"
+  },
+  {
+   "pid": "marianne-rodriguez",
+   "vertical": "referral",
+   "source": "Referral general",
+   "at": "2026-10-30T23:08:04.000Z"
   }
  ]
 }
