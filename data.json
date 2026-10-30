@@ -1,0 +1,356 @@
+{
+ "version": "2026-10-30T15:46:40+00:00",
+ "updated": "2026-10-30T15:46:40+00:00",
+ "participants": [
+  {
+   "id": "alexa-lem",
+   "name": "Alexa Lem",
+   "office": "Oficinas",
+   "group": "Chihuahua",
+   "delivered": {}
+  },
+  {
+   "id": "alondra-escudero",
+   "name": "Alondra Escudero",
+   "office": "Polanco",
+   "group": "APP",
+   "delivered": {}
+  },
+  {
+   "id": "andrea-ramirez",
+   "name": "Andrea Ramirez",
+   "office": "Oficinas",
+   "group": "Monterrey",
+   "delivered": {}
+  },
+  {
+   "id": "ariadna-rios",
+   "name": "Ariadna Rios",
+   "office": "MXA",
+   "group": "",
+   "delivered": {}
+  },
+  {
+   "id": "arturo-hernandez",
+   "name": "Arturo Hernandez",
+   "office": "Polanco",
+   "group": "ILS",
+   "delivered": {}
+  },
+  {
+   "id": "axel-ortiz",
+   "name": "Axel Ortiz",
+   "office": "Polanco",
+   "group": "ILS",
+   "delivered": {}
+  },
+  {
+   "id": "barbara-garcia",
+   "name": "Barbara Garcia",
+   "office": "Oficinas",
+   "group": "Monterrey",
+   "delivered": {}
+  },
+  {
+   "id": "brenda-duran",
+   "name": "Brenda Duran",
+   "office": "Polanco",
+   "group": "ILS",
+   "delivered": {}
+  },
+  {
+   "id": "carol-barrera",
+   "name": "Carol Barrera",
+   "office": "MXA",
+   "group": "",
+   "delivered": {}
+  },
+  {
+   "id": "catherine-vinas",
+   "name": "Catherine Viñas",
+   "office": "Polanco",
+   "group": "APP",
+   "delivered": {}
+  },
+  {
+   "id": "daniela-fernandez",
+   "name": "Daniela Fernandez",
+   "office": "MXA",
+   "group": "",
+   "delivered": {}
+  },
+  {
+   "id": "diego-carpio",
+   "name": "Diego Carpio",
+   "office": "Polanco",
+   "group": "APP",
+   "delivered": {}
+  },
+  {
+   "id": "edgar-flores",
+   "name": "Edgar Flores",
+   "office": "Oficinas",
+   "group": "Tijuana",
+   "delivered": {}
+  },
+  {
+   "id": "edu-juarez",
+   "name": "Edu Juarez",
+   "office": "MXA",
+   "group": "",
+   "delivered": {}
+  },
+  {
+   "id": "frida-carrasco",
+   "name": "Frida Carrasco",
+   "office": "Polanco",
+   "group": "Multi / Customer",
+   "delivered": {}
+  },
+  {
+   "id": "jaidy-amador",
+   "name": "Jaidy Amador",
+   "office": "Oficinas",
+   "group": "Puebla",
+   "delivered": {}
+  },
+  {
+   "id": "jeanette-ocampo",
+   "name": "Jeanette Ocampo",
+   "office": "Oficinas",
+   "group": "Tijuana",
+   "delivered": {}
+  },
+  {
+   "id": "jorge-jimenez",
+   "name": "Jorge Jimenez",
+   "office": "Oficinas",
+   "group": "Guadalajara",
+   "delivered": {}
+  },
+  {
+   "id": "juana-garza",
+   "name": "Juana Garza",
+   "office": "MXA",
+   "group": "",
+   "delivered": {}
+  },
+  {
+   "id": "lilia-argote",
+   "name": "Lilia Argote",
+   "office": "Oficinas",
+   "group": "Guadalajara",
+   "delivered": {}
+  },
+  {
+   "id": "luciana-araujo",
+   "name": "Luciana Araujo",
+   "office": "Oficinas",
+   "group": "Querétaro",
+   "delivered": {}
+  },
+  {
+   "id": "luis-mendieta",
+   "name": "Luis Mendieta",
+   "office": "Oficinas",
+   "group": "Puebla",
+   "delivered": {}
+  },
+  {
+   "id": "marianne-rodriguez",
+   "name": "Marianne Rodriguez",
+   "office": "Polanco",
+   "group": "LT",
+   "delivered": {}
+  },
+  {
+   "id": "mirna-perez",
+   "name": "Mirna Perez",
+   "office": "Polanco",
+   "group": "LT",
+   "delivered": {}
+  },
+  {
+   "id": "natalie-newby",
+   "name": "Natalie Newby",
+   "office": "Polanco",
+   "group": "ILS",
+   "delivered": {}
+  },
+  {
+   "id": "osiel-leon",
+   "name": "Osiel Leon",
+   "office": "Oficinas",
+   "group": "Querétaro",
+   "delivered": {}
+  },
+  {
+   "id": "samantha-david",
+   "name": "Samantha David",
+   "office": "Oficinas",
+   "group": "Chihuahua",
+   "delivered": {}
+  },
+  {
+   "id": "sebastian-zarate",
+   "name": "Sebastian Zarate",
+   "office": "Polanco",
+   "group": "ILS",
+   "delivered": {}
+  },
+  {
+   "id": "stefanya-huerta",
+   "name": "Stefanya Huerta",
+   "office": "Polanco",
+   "group": "APP",
+   "delivered": {}
+  },
+  {
+   "id": "yazmin-kuri",
+   "name": "Yazmin Kuri",
+   "office": "Polanco",
+   "group": "ILS",
+   "delivered": {}
+  }
+ ],
+ "stamps": [
+  {
+   "pid": "ariadna-rios",
+   "vertical": "referral",
+   "source": "Referral general",
+   "at": "2026-10-29T23:12:03.000Z"
+  },
+  {
+   "pid": "ariadna-rios",
+   "vertical": "referral",
+   "source": "Referral general",
+   "at": "2026-10-29T23:12:04.000Z"
+  },
+  {
+   "pid": "ariadna-rios",
+   "vertical": "returnee",
+   "source": "ExPax General",
+   "at": "2026-10-29T23:12:05.000Z"
+  },
+  {
+   "pid": "arturo-hernandez",
+   "vertical": "referral",
+   "source": "Referral general",
+   "at": "2026-10-29T23:12:06.000Z"
+  },
+  {
+   "pid": "barbara-garcia",
+   "vertical": "referral",
+   "source": "Referral general",
+   "at": "2026-10-29T23:12:08.000Z"
+  },
+  {
+   "pid": "barbara-garcia",
+   "vertical": "referral",
+   "source": "Referral general",
+   "at": "2026-10-29T23:12:09.000Z"
+  },
+  {
+   "pid": "brenda-duran",
+   "vertical": "returnee",
+   "source": "ExPax General",
+   "at": "2026-10-29T23:12:10.000Z"
+  },
+  {
+   "pid": "edgar-flores",
+   "vertical": "referral",
+   "source": "Referral general",
+   "at": "2026-10-29T23:12:12.000Z"
+  },
+  {
+   "pid": "edgar-flores",
+   "vertical": "referral",
+   "source": "Referral general",
+   "at": "2026-10-29T23:12:13.000Z"
+  },
+  {
+   "pid": "jaidy-amador",
+   "vertical": "ambassador",
+   "source": "Ambassador",
+   "at": "2026-10-29T23:12:15.000Z"
+  },
+  {
+   "pid": "jaidy-amador",
+   "vertical": "ambassador",
+   "source": "Ambassador",
+   "at": "2026-10-29T23:12:16.000Z"
+  },
+  {
+   "pid": "jaidy-amador",
+   "vertical": "referral",
+   "source": "Referral general",
+   "at": "2026-10-29T23:12:17.000Z"
+  },
+  {
+   "pid": "jorge-jimenez",
+   "vertical": "referral",
+   "source": "Referral general",
+   "at": "2026-10-29T23:12:19.000Z"
+  },
+  {
+   "pid": "jorge-jimenez",
+   "vertical": "returnee",
+   "source": "ExPax General",
+   "at": "2026-10-29T23:12:20.000Z"
+  },
+  {
+   "pid": "juana-garza",
+   "vertical": "returnee",
+   "source": "ExPax General",
+   "at": "2026-10-29T23:12:21.000Z"
+  },
+  {
+   "pid": "juana-garza",
+   "vertical": "returnee",
+   "source": "ExPax General",
+   "at": "2026-10-29T23:12:22.000Z"
+  },
+  {
+   "pid": "lilia-argote",
+   "vertical": "referral",
+   "source": "Referral general",
+   "at": "2026-10-29T23:12:23.000Z"
+  },
+  {
+   "pid": "lilia-argote",
+   "vertical": "referral",
+   "source": "Referral general",
+   "at": "2026-10-29T23:12:24.000Z"
+  },
+  {
+   "pid": "yazmin-kuri",
+   "vertical": "referral",
+   "source": "Referral general",
+   "at": "2026-10-29T23:12:27.000Z"
+  },
+  {
+   "pid": "sebastian-zarate",
+   "vertical": "referral",
+   "source": "Referral general",
+   "at": "2026-10-29T23:25:30.000Z"
+  },
+  {
+   "pid": "sebastian-zarate",
+   "vertical": "ambassador",
+   "source": "Ambassador",
+   "at": "2026-10-29T23:26:30.000Z"
+  },
+  {
+   "pid": "diego-carpio",
+   "vertical": "referral",
+   "source": "Referral general",
+   "at": "2026-10-29T23:38:30.000Z"
+  },
+  {
+   "pid": "diego-carpio",
+   "vertical": "referral",
+   "source": "Referral general",
+   "at": "2026-10-29T23:38:31.000Z"
+  }
+ ]
+}
