@@ -1,6 +1,6 @@
 {
- "version": "2026-10-30T15:46:40+00:00",
- "updated": "2026-10-30T15:46:40+00:00",
+ "version": "2026-10-30T15:57:13+00:00",
+ "updated": "2026-10-30T15:57:13+00:00",
  "participants": [
   {
    "id": "alexa-lem",
@@ -351,6 +351,12 @@
    "vertical": "referral",
    "source": "Referral general",
    "at": "2026-10-29T23:38:31.000Z"
+  },
+  {
+   "pid": "samantha-david",
+   "vertical": "ambassador",
+   "source": "Ambassador",
+   "at": "2026-10-30T15:56:30.000Z"
   }
  ]
 }
