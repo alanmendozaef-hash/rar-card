@@ -1,6 +1,6 @@
 {
- "version": "2026-11-02T15:39:21+00:00",
- "updated": "2026-11-02T15:39:21+00:00",
+ "version": "2026-11-02T17:16:05+00:00",
+ "updated": "2026-11-02T17:16:05+00:00",
  "participants": [
   {
    "id": "alexa-lem",
@@ -387,6 +387,12 @@
    "vertical": "returnee",
    "source": "ExPax General",
    "at": "2026-11-02T15:39:30.000Z"
+  },
+  {
+   "pid": "sebastian-zarate",
+   "vertical": "ambassador",
+   "source": "Ambassador",
+   "at": "2026-11-02T17:15:30.000Z"
   }
  ]
 }
