@@ -1,6 +1,6 @@
 {
- "version": "2026-11-02T17:16:05+00:00",
- "updated": "2026-11-02T17:16:05+00:00",
+ "version": "2026-11-02T17:17:14+00:00",
+ "updated": "2026-11-02T17:17:14+00:00",
  "participants": [
   {
    "id": "alexa-lem",
@@ -393,6 +393,12 @@
    "vertical": "ambassador",
    "source": "Ambassador",
    "at": "2026-11-02T17:15:30.000Z"
+  },
+  {
+   "pid": "jaidy-amador",
+   "vertical": "referral",
+   "source": "Referral general",
+   "at": "2026-11-02T17:17:30.000Z"
   }
  ]
 }
