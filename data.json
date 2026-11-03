@@ -1,6 +1,6 @@
 {
- "version": "2026-11-03T00:03:10+00:00",
- "updated": "2026-11-03T00:03:10+00:00",
+ "version": "2026-11-03T00:04:16+00:00",
+ "updated": "2026-11-03T00:04:16+00:00",
  "participants": [
   {
    "id": "alexa-lem",
@@ -405,18 +405,6 @@
    "vertical": "referral",
    "source": "Referral general",
    "at": "2026-11-03T00:02:01.000Z"
-  },
-  {
-   "pid": "ariadna-rios",
-   "vertical": "referral",
-   "source": "Referral general",
-   "at": "2026-11-03T00:02:02.000Z"
-  },
-  {
-   "pid": "ariadna-rios",
-   "vertical": "ambassador",
-   "source": "Ambassador",
-   "at": "2026-11-03T00:02:03.000Z"
   },
   {
    "pid": "ariadna-rios",
