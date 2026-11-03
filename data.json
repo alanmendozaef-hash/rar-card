@@ -1,6 +1,6 @@
 {
- "version": "2026-11-03T00:11:41+00:00",
- "updated": "2026-11-03T00:11:41+00:00",
+ "version": "2026-11-03T19:38:12+00:00",
+ "updated": "2026-11-03T19:38:12+00:00",
  "participants": [
   {
    "id": "alexa-lem",
@@ -411,6 +411,12 @@
    "vertical": "referral",
    "source": "Referral general",
    "at": "2026-11-03T00:02:05.000Z"
+  },
+  {
+   "pid": "yazmin-kuri",
+   "vertical": "referral",
+   "source": "Referral general",
+   "at": "2026-11-03T19:37:30.000Z"
   }
  ]
 }
