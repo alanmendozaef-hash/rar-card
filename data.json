@@ -1,6 +1,6 @@
 {
- "version": "2026-11-05T21:17:23+00:00",
- "updated": "2026-11-05T21:17:23+00:00",
+ "version": "2026-11-05T21:18:40+00:00",
+ "updated": "2026-11-05T21:18:40+00:00",
  "participants": [
   {
    "id": "alexa-lem",
@@ -423,6 +423,12 @@
    "vertical": "referral",
    "source": "Referral general",
    "at": "2026-11-05T21:17:30.000Z"
+  },
+  {
+   "pid": "lilia-argote",
+   "vertical": "referral",
+   "source": "Referral general",
+   "at": "2026-11-05T21:18:30.000Z"
   }
  ]
 }
