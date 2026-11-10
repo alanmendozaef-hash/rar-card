@@ -1,6 +1,6 @@
 {
- "version": "2026-11-10T17:31:03+00:00",
- "updated": "2026-11-10T17:31:03+00:00",
+ "version": "2026-11-10T17:31:45+00:00",
+ "updated": "2026-11-10T17:31:45+00:00",
  "regions": [
   {
    "id": "acapulco",
@@ -452,6 +452,12 @@
    "at": "2026-11-09T18:55:29.000Z"
   },
   {
+   "rid": "cd-victoria",
+   "vertical": "referral",
+   "by": "sales",
+   "at": "2026-11-09T18:55:30.000Z"
+  },
+  {
    "rid": "oaxaca",
    "vertical": "ambassador",
    "by": "rep",
@@ -504,6 +510,24 @@
    "vertical": "referral",
    "by": "rep",
    "at": "2026-11-09T18:55:39.000Z"
+  },
+  {
+   "rid": "sonora",
+   "vertical": "referral",
+   "by": "sales",
+   "at": "2026-11-09T18:55:40.000Z"
+  },
+  {
+   "rid": "jalapa",
+   "vertical": "ambassador",
+   "by": "sales",
+   "at": "2026-11-09T18:55:41.000Z"
+  },
+  {
+   "rid": "morelos",
+   "vertical": "referral",
+   "by": "sales",
+   "at": "2026-11-09T18:55:42.000Z"
   }
  ]
 }
