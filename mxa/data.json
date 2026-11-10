@@ -1,0 +1,533 @@
+{
+ "version": "2026-11-10T17:26:42+00:00",
+ "updated": "2026-11-10T17:26:42+00:00",
+ "regions": [
+  {
+   "id": "acapulco",
+   "name": "Acapulco",
+   "team": "Angie y Alex",
+   "sales": "Angie y Alex",
+   "reps": "Clau",
+   "order": 2,
+   "delivered": {}
+  },
+  {
+   "id": "ags-zacatecas",
+   "name": "Ags - Zacatecas",
+   "team": "Carol",
+   "sales": "Carol",
+   "reps": "Marian",
+   "order": 12,
+   "delivered": {}
+  },
+  {
+   "id": "cancun",
+   "name": "Cancún",
+   "team": "Carol",
+   "sales": "Carol",
+   "reps": "Regina",
+   "order": 5,
+   "delivered": {}
+  },
+  {
+   "id": "cd-victoria",
+   "name": "CD Victoria",
+   "team": "Juana",
+   "sales": "Juana",
+   "reps": "Luz",
+   "order": 1,
+   "delivered": {}
+  },
+  {
+   "id": "culiacan",
+   "name": "Culiacán",
+   "team": "Juana",
+   "sales": "Juana",
+   "reps": "Silvia",
+   "order": 3,
+   "delivered": {}
+  },
+  {
+   "id": "durango",
+   "name": "Durango",
+   "team": "Carol",
+   "sales": "Carol",
+   "reps": "Gaby",
+   "order": 6,
+   "delivered": {}
+  },
+  {
+   "id": "gto",
+   "name": "Gto",
+   "team": "Angie y Alex",
+   "sales": "Angie y Alex",
+   "reps": "Ale y Vero",
+   "order": 1,
+   "delivered": {}
+  },
+  {
+   "id": "hidalgo",
+   "name": "Hidalgo",
+   "team": "Carol",
+   "sales": "Carol",
+   "reps": "César",
+   "order": 11,
+   "delivered": {}
+  },
+  {
+   "id": "jalapa",
+   "name": "Jalapa",
+   "team": "Ariadna",
+   "sales": "Ariadna",
+   "reps": "Paty",
+   "order": 2,
+   "delivered": {}
+  },
+  {
+   "id": "la-paz",
+   "name": "La Paz",
+   "team": "Carol",
+   "sales": "Carol",
+   "reps": "Fer",
+   "order": 2,
+   "delivered": {}
+  },
+  {
+   "id": "mazatlan",
+   "name": "Mazatlán",
+   "team": "Juana",
+   "sales": "Juana",
+   "reps": "Marysol",
+   "order": 2,
+   "delivered": {}
+  },
+  {
+   "id": "merida",
+   "name": "Mérida",
+   "team": "Carol",
+   "sales": "Carol",
+   "reps": "Estef",
+   "order": 13,
+   "delivered": {}
+  },
+  {
+   "id": "mexicali",
+   "name": "Mexicali",
+   "team": "Angie y Alex",
+   "sales": "Angie y Alex",
+   "reps": "Lulu",
+   "order": 4,
+   "delivered": {}
+  },
+  {
+   "id": "morelia",
+   "name": "Morelia",
+   "team": "Carol",
+   "sales": "Carol",
+   "reps": "Ros",
+   "order": 8,
+   "delivered": {}
+  },
+  {
+   "id": "morelos",
+   "name": "Morelos",
+   "team": "Carol",
+   "sales": "Carol",
+   "reps": "Yun",
+   "order": 7,
+   "delivered": {}
+  },
+  {
+   "id": "oaxaca",
+   "name": "Oaxaca",
+   "team": "Carol",
+   "sales": "Carol",
+   "reps": "Beth",
+   "order": 9,
+   "delivered": {}
+  },
+  {
+   "id": "saltillo",
+   "name": "Saltillo",
+   "team": "Eduardo",
+   "sales": "Eduardo",
+   "reps": "Liza",
+   "order": 3,
+   "delivered": {}
+  },
+  {
+   "id": "san-luis",
+   "name": "San Luis",
+   "team": "Carol",
+   "sales": "Carol",
+   "reps": "Lorna",
+   "order": 3,
+   "delivered": {}
+  },
+  {
+   "id": "sonora",
+   "name": "Sonora",
+   "team": "Eduardo",
+   "sales": "Eduardo",
+   "reps": "Nini",
+   "order": 1,
+   "delivered": {}
+  },
+  {
+   "id": "tabasco",
+   "name": "Tabasco",
+   "team": "Carol",
+   "sales": "Carol",
+   "reps": "Julia",
+   "order": 1,
+   "delivered": {}
+  },
+  {
+   "id": "tapachula",
+   "name": "Tapachula",
+   "team": "Angie y Alex",
+   "sales": "Angie y Alex",
+   "reps": "Martitha",
+   "order": 3,
+   "delivered": {}
+  },
+  {
+   "id": "toluca",
+   "name": "Toluca",
+   "team": "Carol",
+   "sales": "Carol",
+   "reps": "Ame",
+   "order": 4,
+   "delivered": {}
+  },
+  {
+   "id": "torreon",
+   "name": "Torreón",
+   "team": "Eduardo",
+   "sales": "Eduardo",
+   "reps": "Ale",
+   "order": 2,
+   "delivered": {}
+  },
+  {
+   "id": "tuxtla",
+   "name": "Tuxtla",
+   "team": "Carol",
+   "sales": "Carol",
+   "reps": "Caro",
+   "order": 10,
+   "delivered": {}
+  },
+  {
+   "id": "veracruz",
+   "name": "Veracruz",
+   "team": "Ariadna",
+   "sales": "Ariadna",
+   "reps": "Maru",
+   "order": 1,
+   "delivered": {}
+  }
+ ],
+ "stamps": [
+  {
+   "rid": "veracruz",
+   "vertical": "returnee",
+   "by": "sales",
+   "at": "2026-11-09T17:55:00.000Z"
+  },
+  {
+   "rid": "veracruz",
+   "vertical": "referral",
+   "by": "sales",
+   "at": "2026-11-09T17:55:01.000Z"
+  },
+  {
+   "rid": "veracruz",
+   "vertical": "referral",
+   "by": "sales",
+   "at": "2026-11-09T17:55:02.000Z"
+  },
+  {
+   "rid": "veracruz",
+   "vertical": "ambassador",
+   "by": "sales",
+   "at": "2026-11-09T17:55:03.000Z"
+  },
+  {
+   "rid": "mazatlan",
+   "vertical": "returnee",
+   "by": "sales",
+   "at": "2026-11-09T17:55:04.000Z"
+  },
+  {
+   "rid": "cd-victoria",
+   "vertical": "referral",
+   "by": "sales",
+   "at": "2026-11-09T17:55:05.000Z"
+  },
+  {
+   "rid": "mazatlan",
+   "vertical": "returnee",
+   "by": "sales",
+   "at": "2026-11-09T17:56:00.000Z"
+  },
+  {
+   "rid": "gto",
+   "vertical": "returnee",
+   "by": "rep",
+   "at": "2026-11-09T18:55:00.000Z"
+  },
+  {
+   "rid": "gto",
+   "vertical": "returnee",
+   "by": "rep",
+   "at": "2026-11-09T18:55:01.000Z"
+  },
+  {
+   "rid": "gto",
+   "vertical": "returnee",
+   "by": "rep",
+   "at": "2026-11-09T18:55:02.000Z"
+  },
+  {
+   "rid": "gto",
+   "vertical": "returnee",
+   "by": "rep",
+   "at": "2026-11-09T18:55:03.000Z"
+  },
+  {
+   "rid": "gto",
+   "vertical": "returnee",
+   "by": "rep",
+   "at": "2026-11-09T18:55:04.000Z"
+  },
+  {
+   "rid": "gto",
+   "vertical": "returnee",
+   "by": "rep",
+   "at": "2026-11-09T18:55:05.000Z"
+  },
+  {
+   "rid": "gto",
+   "vertical": "returnee",
+   "by": "rep",
+   "at": "2026-11-09T18:55:06.000Z"
+  },
+  {
+   "rid": "gto",
+   "vertical": "returnee",
+   "by": "rep",
+   "at": "2026-11-09T18:55:07.000Z"
+  },
+  {
+   "rid": "gto",
+   "vertical": "returnee",
+   "by": "rep",
+   "at": "2026-11-09T18:55:08.000Z"
+  },
+  {
+   "rid": "gto",
+   "vertical": "returnee",
+   "by": "rep",
+   "at": "2026-11-09T18:55:09.000Z"
+  },
+  {
+   "rid": "gto",
+   "vertical": "returnee",
+   "by": "rep",
+   "at": "2026-11-09T18:55:10.000Z"
+  },
+  {
+   "rid": "gto",
+   "vertical": "returnee",
+   "by": "rep",
+   "at": "2026-11-09T18:55:11.000Z"
+  },
+  {
+   "rid": "la-paz",
+   "vertical": "ambassador",
+   "by": "rep",
+   "at": "2026-11-09T18:55:12.000Z"
+  },
+  {
+   "rid": "la-paz",
+   "vertical": "ambassador",
+   "by": "rep",
+   "at": "2026-11-09T18:55:13.000Z"
+  },
+  {
+   "rid": "la-paz",
+   "vertical": "ambassador",
+   "by": "rep",
+   "at": "2026-11-09T18:55:14.000Z"
+  },
+  {
+   "rid": "la-paz",
+   "vertical": "ambassador",
+   "by": "rep",
+   "at": "2026-11-09T18:55:15.000Z"
+  },
+  {
+   "rid": "la-paz",
+   "vertical": "returnee",
+   "by": "rep",
+   "at": "2026-11-09T18:55:16.000Z"
+  },
+  {
+   "rid": "toluca",
+   "vertical": "ambassador",
+   "by": "rep",
+   "at": "2026-11-09T18:55:17.000Z"
+  },
+  {
+   "rid": "toluca",
+   "vertical": "referral",
+   "by": "rep",
+   "at": "2026-11-09T18:55:18.000Z"
+  },
+  {
+   "rid": "toluca",
+   "vertical": "referral",
+   "by": "rep",
+   "at": "2026-11-09T18:55:19.000Z"
+  },
+  {
+   "rid": "tuxtla",
+   "vertical": "ambassador",
+   "by": "rep",
+   "at": "2026-11-09T18:55:20.000Z"
+  },
+  {
+   "rid": "tuxtla",
+   "vertical": "referral",
+   "by": "rep",
+   "at": "2026-11-09T18:55:21.000Z"
+  },
+  {
+   "rid": "tuxtla",
+   "vertical": "ambassador",
+   "by": "sales",
+   "at": "2026-11-09T18:55:22.000Z"
+  },
+  {
+   "rid": "culiacan",
+   "vertical": "ambassador",
+   "by": "rep",
+   "at": "2026-11-09T18:55:23.000Z"
+  },
+  {
+   "rid": "culiacan",
+   "vertical": "ambassador",
+   "by": "rep",
+   "at": "2026-11-09T18:55:24.000Z"
+  },
+  {
+   "rid": "hidalgo",
+   "vertical": "ambassador",
+   "by": "rep",
+   "at": "2026-11-09T18:55:25.000Z"
+  },
+  {
+   "rid": "hidalgo",
+   "vertical": "ambassador",
+   "by": "rep",
+   "at": "2026-11-09T18:55:26.000Z"
+  },
+  {
+   "rid": "morelia",
+   "vertical": "ambassador",
+   "by": "rep",
+   "at": "2026-11-09T18:55:27.000Z"
+  },
+  {
+   "rid": "morelia",
+   "vertical": "referral",
+   "by": "sales",
+   "at": "2026-11-09T18:55:28.000Z"
+  },
+  {
+   "rid": "cd-victoria",
+   "vertical": "ambassador",
+   "by": "sales",
+   "at": "2026-11-09T18:55:29.000Z"
+  },
+  {
+   "rid": "cd-victoria",
+   "vertical": "referral",
+   "by": "sales",
+   "at": "2026-11-09T18:55:30.000Z"
+  },
+  {
+   "rid": "oaxaca",
+   "vertical": "ambassador",
+   "by": "rep",
+   "at": "2026-11-09T18:55:31.000Z"
+  },
+  {
+   "rid": "oaxaca",
+   "vertical": "referral",
+   "by": "rep",
+   "at": "2026-11-09T18:55:32.000Z"
+  },
+  {
+   "rid": "cancun",
+   "vertical": "referral",
+   "by": "rep",
+   "at": "2026-11-09T18:55:33.000Z"
+  },
+  {
+   "rid": "cancun",
+   "vertical": "referral",
+   "by": "rep",
+   "at": "2026-11-09T18:55:34.000Z"
+  },
+  {
+   "rid": "tapachula",
+   "vertical": "referral",
+   "by": "rep",
+   "at": "2026-11-09T18:55:35.000Z"
+  },
+  {
+   "rid": "tapachula",
+   "vertical": "returnee",
+   "by": "rep",
+   "at": "2026-11-09T18:55:36.000Z"
+  },
+  {
+   "rid": "san-luis",
+   "vertical": "ambassador",
+   "by": "rep",
+   "at": "2026-11-09T18:55:37.000Z"
+  },
+  {
+   "rid": "tabasco",
+   "vertical": "referral",
+   "by": "rep",
+   "at": "2026-11-09T18:55:38.000Z"
+  },
+  {
+   "rid": "mexicali",
+   "vertical": "referral",
+   "by": "rep",
+   "at": "2026-11-09T18:55:39.000Z"
+  },
+  {
+   "rid": "sonora",
+   "vertical": "referral",
+   "by": "sales",
+   "at": "2026-11-09T18:55:40.000Z"
+  },
+  {
+   "rid": "jalapa",
+   "vertical": "ambassador",
+   "by": "sales",
+   "at": "2026-11-09T18:55:41.000Z"
+  },
+  {
+   "rid": "morelos",
+   "vertical": "referral",
+   "by": "sales",
+   "at": "2026-11-09T18:55:42.000Z"
+  }
+ ]
+}
