@@ -1,6 +1,6 @@
 {
- "version": "2026-11-10T15:52:41+00:00",
- "updated": "2026-11-10T15:52:41+00:00",
+ "version": "2026-11-11T22:01:55+00:00",
+ "updated": "2026-11-11T22:01:55+00:00",
  "participants": [
   {
    "id": "alexa-lem",
@@ -519,6 +519,176 @@
    "vertical": "ambassador",
    "source": "Ambassador",
    "at": "2026-11-10T15:52:30.000Z"
+  }
+ ],
+ "spins": [
+  {
+   "pid": "brenda-duran",
+   "prize": "Gadget vintage EF",
+   "type": "gratis",
+   "delivered": true,
+   "at": "2026-11-11T21:44:01.000Z"
+  },
+  {
+   "pid": "marianne-rodriguez",
+   "prize": "Dulce RAR",
+   "type": "gratis",
+   "delivered": true,
+   "at": "2026-11-11T21:44:02.000Z"
+  },
+  {
+   "pid": "marianne-rodriguez",
+   "prize": "Amazon $100 (acumulable)",
+   "type": "costo",
+   "delivered": true,
+   "at": "2026-11-11T21:44:03.000Z"
+  },
+  {
+   "pid": "marianne-rodriguez",
+   "prize": "Gadget vintage EF",
+   "type": "gratis",
+   "delivered": true,
+   "at": "2026-11-11T21:44:04.000Z"
+  },
+  {
+   "pid": "marianne-rodriguez",
+   "prize": "Expense $100",
+   "type": "costo",
+   "delivered": true,
+   "at": "2026-11-11T21:44:05.000Z"
+  },
+  {
+   "pid": "alondra-escudero",
+   "prize": "A la bio a la bao",
+   "type": "gratis",
+   "delivered": true,
+   "at": "2026-11-11T21:44:06.000Z"
+  },
+  {
+   "pid": "alondra-escudero",
+   "prize": "Abrazo de tu bestie laboral",
+   "type": "gratis",
+   "delivered": true,
+   "at": "2026-11-11T21:44:07.000Z"
+  },
+  {
+   "pid": "yazmin-kuri",
+   "prize": "Gadget vintage EF",
+   "type": "gratis",
+   "delivered": false,
+   "at": "2026-11-11T21:44:08.000Z"
+  },
+  {
+   "pid": "yazmin-kuri",
+   "prize": "Suerte para la próxima",
+   "type": "sin",
+   "delivered": true,
+   "at": "2026-11-11T21:44:09.000Z"
+  },
+  {
+   "pid": "yazmin-kuri",
+   "prize": "Amazon $100 (acumulable)",
+   "type": "costo",
+   "delivered": false,
+   "at": "2026-11-11T21:44:10.000Z"
+  },
+  {
+   "pid": "arturo-hernandez",
+   "prize": "Gadget vintage EF",
+   "type": "gratis",
+   "delivered": true,
+   "at": "2026-11-11T21:44:11.000Z"
+  },
+  {
+   "pid": "arturo-hernandez",
+   "prize": "Suerte para la próxima",
+   "type": "sin",
+   "delivered": true,
+   "at": "2026-11-11T21:44:12.000Z"
+  },
+  {
+   "pid": "diego-carpio",
+   "prize": "Gadget vintage EF",
+   "type": "gratis",
+   "delivered": true,
+   "at": "2026-11-11T21:44:13.000Z"
+  },
+  {
+   "pid": "diego-carpio",
+   "prize": "Vuelve a girar",
+   "type": "sin",
+   "delivered": true,
+   "at": "2026-11-11T21:44:14.000Z"
+  },
+  {
+   "pid": "diego-carpio",
+   "prize": "Dulce RAR",
+   "type": "gratis",
+   "delivered": true,
+   "at": "2026-11-11T21:44:15.000Z"
+  },
+  {
+   "pid": "diego-carpio",
+   "prize": "A la bio a la bao",
+   "type": "gratis",
+   "delivered": true,
+   "at": "2026-11-11T21:44:16.000Z"
+  },
+  {
+   "pid": "diego-carpio",
+   "prize": "Suerte para la próxima",
+   "type": "sin",
+   "delivered": true,
+   "at": "2026-11-11T21:44:17.000Z"
+  },
+  {
+   "pid": "edu-juarez",
+   "prize": "Suerte para la próxima",
+   "type": "sin",
+   "delivered": true,
+   "at": "2026-11-11T21:44:18.000Z"
+  },
+  {
+   "pid": "carol-barrera",
+   "prize": "Suerte para la próxima",
+   "type": "sin",
+   "delivered": true,
+   "at": "2026-11-11T21:44:19.000Z"
+  },
+  {
+   "pid": "ariadna-rios",
+   "prize": "Expense desayuno $100",
+   "type": "costo",
+   "delivered": false,
+   "at": "2026-11-11T21:44:20.000Z"
+  },
+  {
+   "pid": "ariadna-rios",
+   "prize": "A la bio a la bao",
+   "type": "gratis",
+   "delivered": true,
+   "at": "2026-11-11T21:44:21.000Z"
+  },
+  {
+   "pid": "ariadna-rios",
+   "prize": "A la bio a la bao",
+   "type": "gratis",
+   "delivered": true,
+   "at": "2026-11-11T21:44:22.000Z"
+  },
+  {
+   "pid": "ariadna-rios",
+   "prize": "Gadget vintage EF",
+   "type": "gratis",
+   "delivered": false,
+   "at": "2026-11-11T21:44:23.000Z"
+  },
+  {
+   "pid": "ariadna-rios",
+   "prize": "Suerte para la próxima",
+   "type": "sin",
+   "delivered": true,
+   "at": "2026-11-11T21:44:24.000Z"
   }
  ]
 }

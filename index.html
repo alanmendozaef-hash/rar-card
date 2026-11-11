@@ -86,6 +86,17 @@ select.sel{padding:8px 12px;border:1px solid var(--line);border-radius:999px;bac
 .slot svg{width:100%;height:100%;display:block;overflow:visible}
 .slot.on svg{animation:none}
 .slot.new svg{animation:pop .6s ease-out}
+.slot{position:relative}
+.slot.canj svg{opacity:.55}
+.slot.canj::after{content:"CANJEADO";position:absolute;left:50%;top:50%;transform:translate(-50%,-50%) rotate(-18deg);font-family:var(--f-display);font-weight:800;font-size:clamp(6px,1.9vw,9px);letter-spacing:.02em;color:#fff;background:#003A63;padding:1px 3px;border-radius:3px;white-space:nowrap;pointer-events:none}
+.gcard.big .slot.canj::after{font-size:clamp(7px,2.2vw,11px)}
+.slot.due{border-radius:50%;box-shadow:0 0 0 3px #F5A524}
+.legend{display:flex;flex-wrap:wrap;gap:12px;font-size:12.5px;color:var(--muted);margin:2px 0 8px}
+.legend i{display:inline-block;width:12px;height:12px;border-radius:50%;vertical-align:-2px;margin-right:5px}
+.redeem{font-weight:700;white-space:nowrap}
+.redeem .ok{color:#0B5A3A}
+.redeem .due{color:#9A5B00}
+.ptype{font-size:10.5px;font-weight:800;letter-spacing:.05em;text-transform:uppercase;padding:3px 7px;border-radius:6px;white-space:nowrap;background:var(--sunk);color:var(--navy)}
 @keyframes pop{0%{transform:scale(.6)}60%{transform:scale(1.12)}100%{transform:scale(1)}}
 .gcard .foot{display:flex;justify-content:space-between;align-items:center;margin-top:7px;font-size:11.5px;font-weight:600;gap:8px}
 .gcard .foot .fine{font-weight:500;opacity:.75;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;min-width:0}
@@ -213,7 +224,7 @@ const MILES=[
  {k:"c2-18",l:"Expense $2,000",req:"Tarjeta 2 · 18 sellos",ok:c=>c.t2>=18},
  {k:"col",l:"Movilidad temporal a Colombia",req:"2 tarjetas completas",ok:c=>c.t1>=18&&c.t2>=18}];
 const SRC={ambassador:"Ambassador",returnee:"ExPax General",referral:"Referral general"};
-const S={people:new Map(),stamps:[],office:"Todas",q:"",sort:"stamps",open:null,canEdit:true,db:null,confirm:null};
+const S={people:new Map(),stamps:[],spins:[],office:"Todas",q:"",sort:"stamps",open:null,canEdit:true,db:null,confirm:null};
 const $=id=>document.getElementById(id);
 const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 
@@ -228,12 +239,18 @@ function slotSVG(v,on){
 
 function calc(pid){
   const list=S.stamps.filter(s=>s.pid===pid).sort((a,b)=>(a.at||"").localeCompare(b.at||""));
-  const c1={},c2={},seen={};VERTS.forEach(v=>{c1[v.k]=0;c2[v.k]=0;seen[v.k]=0});
+  const c1={},c2={},seen={},idx={};VERTS.forEach(v=>{c1[v.k]=0;c2[v.k]=0;seen[v.k]=0;idx[v.k]=[]});
   let extra=0;
-  list.forEach(s=>{const v=s.vertical;if(!(v in seen))return;const n=seen[v]++;if(n<6)c1[v]++;else if(n<12)c2[v]++;else extra++});
+  list.forEach((s,k)=>{const v=s.vertical;if(!(v in seen))return;idx[v].push(k);const n=seen[v]++;if(n<6)c1[v]++;else if(n<12)c2[v]++;else extra++});
   const t1=Object.values(c1).reduce((a,b)=>a+b,0),t2=Object.values(c2).reduce((a,b)=>a+b,0);
-  return {list,c1,c2,t1,t2,extra,total:list.length};
+  return {list,c1,c2,t1,t2,extra,idx,total:list.length};
 }
+const isRespin=s=>/vuelve a girar/i.test(s.prize||"");
+function spinsOf(pid){return S.spins.filter(s=>s.pid===pid).sort((a,b)=>(a.at||"").localeCompare(b.at||""))}
+const perStamp=pid=>((S.people.get(pid)||{}).group==="APP"?2:1);
+function slotState(pid,k){if(k==null)return "";const n=perStamp(pid);const sp=spinsOf(pid).filter(s=>!isRespin(s)).slice(k*n,(k+1)*n);
+  return sp.length===n&&sp.every(s=>s.type==="sin"||s.delivered)?"canj":"due"}
+function redeemCount(p,c){let ok=0,due=0;c.list.forEach((s,k)=>{slotState(p.id,k)==="canj"?ok++:due++});return {ok,due}}
 function pendingFor(p,c){
   let n=0;
   MILES.forEach(m=>{if(m.ok(c)&&!(p.delivered||{})[m.k])n++});return n;
@@ -242,11 +259,12 @@ function pendingFor(p,c){
 function cardHTML(p,c,which,big){
   const cc=which===2?c.c2:c.c1;const newest=c.list.length?c.list[c.list.length-1]:null;
   const fresh=newest&&Date.now()-Date.parse(newest.at)<8000;
-  const rows=VERTS.map(v=>`<div class="row"><span class="lbl">${v.tab}</span>${Array.from({length:6},(_,i)=>{const on=i<cc[v.k];const isNew=fresh&&on&&i===cc[v.k]-1&&newest.vertical===v.k;return `<span class="slot${on?" on":""}${isNew?" new":""}">${slotSVG(v,on)}</span>`}).join("")}</div>`).join("");
+  const off=which===2?6:0;
+  const rows=VERTS.map(v=>`<div class="row"><span class="lbl">${v.tab}</span>${Array.from({length:6},(_,i)=>{const on=i<cc[v.k];const isNew=fresh&&on&&i===cc[v.k]-1&&newest.vertical===v.k;const st=on?slotState(p.id,c.idx[v.k][off+i]):"";return `<span class="slot${on?" on":""}${isNew?" new":""}${st?" "+st:""}">${slotSVG(v,on)}</span>`}).join("")}</div>`).join("");
   const t=which===2?c.t2:c.t1;
   return `<div class="head"><div><div class="brand">RAR Card</div><div class="nm">${esc(p.name)}</div><div class="sub">${esc([p.office,p.group].filter(Boolean).join(" · "))}</div></div><div class="rt"><img class="logo" src="${LOGO}" alt="EF Education First"><br><span class="tag">Tarjeta ${which}</span></div></div>
   <div class="rows">${rows}</div>
-  <div class="foot"><span class="fine">Booking que venga de RAR Referral-Ambassador-Returnees</span><span class="num">${t}/18</span></div>`;
+  <div class="foot">${(()=>{const r=redeemCount(p,c);return c.total?`<span class="fine redeem"><span class="ok">${r.ok} canjeado${r.ok===1?"":"s"}</span> · <span class="due">${r.due} por canjear</span></span>`:`<span class="fine">Booking que venga de RAR Referral-Ambassador-Returnees</span>`})()}<span class="num">${t}/18</span></div>`;
 }
 function visiblePeople(){
   const q=S.q.trim().toLowerCase();
@@ -302,6 +320,9 @@ function renderDrawer(){
    </div>
    <div><h3 style="font-size:16px;margin-bottom:8px">Premios por meta</h3><div class="miles">${MILES.map(m=>{const won=m.ok(c);
      return `<div class="mile ${won?"won":""}"><div><div>${m.l}</div><div class="req">${m.req}</div></div>${won?`<span class="pill ok">Ganado</span>`:`<span class="pill off">Bloqueado</span>`}</div>`}).join("")}</div></div>
+   <div><h3 style="font-size:16px;margin-bottom:8px">Premios de ruleta</h3>
+   <div class="legend"><span><i style="background:#003A63"></i>CANJEADO</span><span><i style="box-shadow:inset 0 0 0 3px #F5A524"></i>Por canjear</span><span>${perStamp(p.id)===2?"APP: 1 sello = 2 giros":"1 sello = 1 giro"}</span></div>
+   <div class="hist">${(()=>{const sp=spinsOf(p.id);return sp.length?[...sp].reverse().map(s=>`<div class="hrow"><span class="ptype">Giro</span><div><div class="prize">${esc(s.prize)}</div><div class="meta">${fmt(s.at)}</div></div><div class="hact">${s.type==="sin"?"":`<span class="pill ${s.delivered?"ok":"warn"}">${s.delivered?"Canjeado":"Por canjear"}</span>`}</div></div>`).join(""):`<p class="note">Todavía no hay giros registrados.</p>`})()}</div></div>
    <div><h3 style="font-size:16px;margin-bottom:8px">Historial de sellos <span class="note">(${c.total})</span></h3>
    <div class="hist">${c.list.length?[...c.list].reverse().map(s=>{
      const dup=ed&&s.booking&&S.stamps.filter(x=>x.booking&&x.booking.toUpperCase()===s.booking.toUpperCase()).length>1;
@@ -355,7 +376,7 @@ async function load(){
     if(!r.ok)throw 0;const d=await r.json();
     if(d.version!==lastV){lastV=d.version;
       S.people=new Map(d.participants.map(p=>[p.id,p]));
-      S.stamps=d.stamps.map((s,i)=>({id:"s"+i,...s}));render();}
+      S.stamps=d.stamps.map((s,i)=>({id:"s"+i,...s}));S.spins=(d.spins||[]).map((s,i)=>({id:"g"+i,...s}));render();}
     const dt=new Date(d.updated);
     $("status").textContent="En vivo · actualizado "+dt.toLocaleString("es-MX",{day:"numeric",month:"short",hour:"2-digit",minute:"2-digit"});
   }catch(e){$("status").textContent="Sin conexión. Reintentando…";}
