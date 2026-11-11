@@ -1,6 +1,6 @@
 {
- "version": "2026-11-11T22:01:55+00:00",
- "updated": "2026-11-11T22:01:55+00:00",
+ "version": "2026-11-11T22:26:09+00:00",
+ "updated": "2026-11-11T22:26:09+00:00",
  "participants": [
   {
    "id": "alexa-lem",
@@ -689,6 +689,41 @@
    "type": "sin",
    "delivered": true,
    "at": "2026-11-11T21:44:24.000Z"
+  },
+  {
+   "pid": "sebastian-zarate",
+   "prize": "Dulce RAR",
+   "type": "gratis",
+   "delivered": true,
+   "at": "2026-11-11T22:25:01.000Z"
+  },
+  {
+   "pid": "sebastian-zarate",
+   "prize": "Suerte para la próxima",
+   "type": "sin",
+   "delivered": true,
+   "at": "2026-11-11T22:25:02.000Z"
+  },
+  {
+   "pid": "sebastian-zarate",
+   "prize": "A la bio a la bao",
+   "type": "gratis",
+   "delivered": true,
+   "at": "2026-11-11T22:25:03.000Z"
+  },
+  {
+   "pid": "sebastian-zarate",
+   "prize": "Abrazo de tu bestie laboral",
+   "type": "gratis",
+   "delivered": true,
+   "at": "2026-11-11T22:25:04.000Z"
+  },
+  {
+   "pid": "sebastian-zarate",
+   "prize": "Abrazo de tu bestie laboral",
+   "type": "gratis",
+   "delivered": true,
+   "at": "2026-11-11T22:25:05.000Z"
   }
  ]
 }
