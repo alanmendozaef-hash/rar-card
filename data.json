@@ -1,6 +1,6 @@
 {
- "version": "2026-11-12T19:18:20+00:00",
- "updated": "2026-11-12T19:18:20+00:00",
+ "version": "2026-11-12T22:35:14+00:00",
+ "updated": "2026-11-12T22:35:14+00:00",
  "participants": [
   {
    "id": "alexa-lem",
@@ -537,6 +537,12 @@
    "vertical": "returnee",
    "source": "ExPax General",
    "at": "2026-11-12T19:18:30.000Z"
+  },
+  {
+   "pid": "sebastian-zarate",
+   "vertical": "referral",
+   "source": "Referral general",
+   "at": "2026-11-12T22:34:30.000Z"
   }
  ],
  "spins": [
