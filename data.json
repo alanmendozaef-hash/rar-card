@@ -1,6 +1,6 @@
 {
- "version": "2026-11-13T16:19:58+00:00",
- "updated": "2026-11-13T16:19:58+00:00",
+ "version": "2026-11-13T17:52:59+00:00",
+ "updated": "2026-11-13T17:52:59+00:00",
  "participants": [
   {
    "id": "alexa-lem",
@@ -837,6 +837,20 @@
    "type": "costo",
    "delivered": false,
    "at": "2026-11-12T00:21:04.000Z"
+  },
+  {
+   "pid": "juana-garza",
+   "prize": "A la bio a la bao",
+   "type": "gratis",
+   "delivered": true,
+   "at": "2026-11-13T17:52:01.000Z"
+  },
+  {
+   "pid": "edu-juarez",
+   "prize": "Suerte para la próxima",
+   "type": "sin",
+   "delivered": true,
+   "at": "2026-11-13T17:52:02.000Z"
   }
  ]
 }
