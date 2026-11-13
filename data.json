@@ -1,6 +1,6 @@
 {
- "version": "2026-11-13T15:59:25+00:00",
- "updated": "2026-11-13T15:59:25+00:00",
+ "version": "2026-11-13T16:19:58+00:00",
+ "updated": "2026-11-13T16:19:58+00:00",
  "participants": [
   {
    "id": "alexa-lem",
@@ -549,6 +549,12 @@
    "vertical": "ambassador",
    "source": "Ambassador",
    "at": "2026-11-13T15:58:30.000Z"
+  },
+  {
+   "pid": "juana-garza",
+   "vertical": "referral",
+   "source": "Referral general",
+   "at": "2026-11-13T16:19:30.000Z"
   }
  ],
  "spins": [
