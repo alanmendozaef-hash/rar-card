@@ -1,6 +1,6 @@
 {
- "version": "2026-11-13T22:20:17+00:00",
- "updated": "2026-11-13T22:20:17+00:00",
+ "version": "2026-11-13T22:22:37+00:00",
+ "updated": "2026-11-13T22:22:37+00:00",
  "participants": [
   {
    "id": "alexa-lem",
@@ -1084,6 +1084,41 @@
    "type": "gratis",
    "delivered": true,
    "at": "2026-11-13T21:50:03.000Z"
+  },
+  {
+   "pid": "luis-mendieta",
+   "prize": "A la bio a la bao",
+   "type": "gratis",
+   "delivered": true,
+   "at": "2026-11-13T22:22:01.000Z"
+  },
+  {
+   "pid": "luis-mendieta",
+   "prize": "Suerte para la próxima",
+   "type": "sin",
+   "delivered": true,
+   "at": "2026-11-13T22:22:02.000Z"
+  },
+  {
+   "pid": "luis-mendieta",
+   "prize": "Home Office",
+   "type": "costo",
+   "delivered": false,
+   "at": "2026-11-13T22:22:03.000Z"
+  },
+  {
+   "pid": "luis-mendieta",
+   "prize": "Vuelve a girar",
+   "type": "sin",
+   "delivered": true,
+   "at": "2026-11-13T22:22:04.000Z"
+  },
+  {
+   "pid": "luis-mendieta",
+   "prize": "Gadget vintage EF",
+   "type": "gratis",
+   "delivered": false,
+   "at": "2026-11-13T22:22:05.000Z"
   }
  ]
 }
