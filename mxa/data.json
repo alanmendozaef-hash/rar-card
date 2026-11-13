@@ -1,6 +1,6 @@
 {
- "version": "2026-11-13T16:01:14+00:00",
- "updated": "2026-11-13T16:01:14+00:00",
+ "version": "2026-11-13T16:19:59+00:00",
+ "updated": "2026-11-13T16:19:59+00:00",
  "regions": [
   {
    "id": "acapulco",
@@ -546,6 +546,12 @@
    "vertical": "ambassador",
    "by": "sales",
    "at": "2026-11-13T15:58:30.000Z"
+  },
+  {
+   "rid": "cd-victoria",
+   "vertical": "referral",
+   "by": "sales",
+   "at": "2026-11-13T16:19:30.000Z"
   }
  ]
 }
