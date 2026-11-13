@@ -1,12 +1,13 @@
 {
- "version": "2026-11-13T21:45:16+00:00",
- "updated": "2026-11-13T21:45:16+00:00",
+ "version": "2026-11-13T21:47:40+00:00",
+ "updated": "2026-11-13T21:47:40+00:00",
  "participants": [
   {
    "id": "alexa-lem",
    "name": "Alexa Lem",
    "office": "Oficinas",
    "group": "Chihuahua",
+   "app": false,
    "delivered": {}
   },
   {
@@ -14,6 +15,7 @@
    "name": "Alondra Escudero",
    "office": "Polanco",
    "group": "APP",
+   "app": false,
    "delivered": {}
   },
   {
@@ -21,6 +23,7 @@
    "name": "Andrea Ramirez",
    "office": "Oficinas",
    "group": "Monterrey",
+   "app": true,
    "delivered": {}
   },
   {
@@ -28,6 +31,7 @@
    "name": "Ariadna Rios",
    "office": "MXA",
    "group": "",
+   "app": false,
    "delivered": {}
   },
   {
@@ -35,6 +39,7 @@
    "name": "Arturo Hernandez",
    "office": "Polanco",
    "group": "ILS",
+   "app": false,
    "delivered": {}
   },
   {
@@ -42,6 +47,7 @@
    "name": "Axel Ortiz",
    "office": "Polanco",
    "group": "ILS",
+   "app": false,
    "delivered": {}
   },
   {
@@ -49,6 +55,7 @@
    "name": "Barbara Garcia",
    "office": "Oficinas",
    "group": "Monterrey",
+   "app": false,
    "delivered": {}
   },
   {
@@ -56,6 +63,7 @@
    "name": "Brenda Duran",
    "office": "Polanco",
    "group": "ILS",
+   "app": false,
    "delivered": {}
   },
   {
@@ -63,6 +71,7 @@
    "name": "Carol Barrera",
    "office": "MXA",
    "group": "",
+   "app": false,
    "delivered": {}
   },
   {
@@ -70,6 +79,7 @@
    "name": "Catherine Viñas",
    "office": "Polanco",
    "group": "APP",
+   "app": false,
    "delivered": {}
   },
   {
@@ -77,6 +87,7 @@
    "name": "Daniela Fernandez",
    "office": "MXA",
    "group": "",
+   "app": false,
    "delivered": {}
   },
   {
@@ -84,6 +95,7 @@
    "name": "Diego Carpio",
    "office": "Polanco",
    "group": "APP",
+   "app": false,
    "delivered": {}
   },
   {
@@ -91,6 +103,7 @@
    "name": "Edgar Flores",
    "office": "Oficinas",
    "group": "Tijuana",
+   "app": true,
    "delivered": {}
   },
   {
@@ -98,6 +111,7 @@
    "name": "Edu Juarez",
    "office": "MXA",
    "group": "",
+   "app": false,
    "delivered": {}
   },
   {
@@ -105,6 +119,7 @@
    "name": "Frida Carrasco",
    "office": "Polanco",
    "group": "Multi / Customer",
+   "app": false,
    "delivered": {}
   },
   {
@@ -112,6 +127,7 @@
    "name": "Jaidy Amador",
    "office": "Oficinas",
    "group": "Puebla",
+   "app": false,
    "delivered": {}
   },
   {
@@ -119,6 +135,7 @@
    "name": "Jeanette Ocampo",
    "office": "Oficinas",
    "group": "Tijuana",
+   "app": false,
    "delivered": {}
   },
   {
@@ -126,6 +143,7 @@
    "name": "Jorge Jimenez",
    "office": "Oficinas",
    "group": "Guadalajara",
+   "app": false,
    "delivered": {}
   },
   {
@@ -133,6 +151,7 @@
    "name": "Juana Garza",
    "office": "MXA",
    "group": "",
+   "app": false,
    "delivered": {}
   },
   {
@@ -140,6 +159,7 @@
    "name": "Lilia Argote",
    "office": "Oficinas",
    "group": "Guadalajara",
+   "app": true,
    "delivered": {}
   },
   {
@@ -147,6 +167,7 @@
    "name": "Luciana Araujo",
    "office": "Oficinas",
    "group": "Querétaro",
+   "app": false,
    "delivered": {}
   },
   {
@@ -154,6 +175,7 @@
    "name": "Luis Mendieta",
    "office": "Oficinas",
    "group": "Puebla",
+   "app": false,
    "delivered": {}
   },
   {
@@ -161,6 +183,7 @@
    "name": "Marianne Rodriguez",
    "office": "Polanco",
    "group": "LT",
+   "app": false,
    "delivered": {}
   },
   {
@@ -168,6 +191,7 @@
    "name": "Mirna Perez",
    "office": "Polanco",
    "group": "LT",
+   "app": false,
    "delivered": {}
   },
   {
@@ -175,6 +199,7 @@
    "name": "Natalie Newby",
    "office": "Polanco",
    "group": "ILS",
+   "app": false,
    "delivered": {}
   },
   {
@@ -182,6 +207,7 @@
    "name": "Osiel Leon",
    "office": "Oficinas",
    "group": "Querétaro",
+   "app": true,
    "delivered": {}
   },
   {
@@ -189,6 +215,7 @@
    "name": "Samantha David",
    "office": "Oficinas",
    "group": "Chihuahua",
+   "app": true,
    "delivered": {}
   },
   {
@@ -196,6 +223,7 @@
    "name": "Sebastian Zarate",
    "office": "Polanco",
    "group": "ILS",
+   "app": false,
    "delivered": {}
   },
   {
@@ -203,6 +231,7 @@
    "name": "Stefanya Huerta",
    "office": "Polanco",
    "group": "APP",
+   "app": false,
    "delivered": {}
   },
   {
@@ -210,6 +239,7 @@
    "name": "Yazmin Kuri",
    "office": "Polanco",
    "group": "ILS",
+   "app": false,
    "delivered": {}
   }
  ],
