@@ -248,7 +248,8 @@ function calc(pid){
 const isRespin=s=>/vuelve a girar/i.test(s.prize||"");
 function spinsOf(pid){return S.spins.filter(s=>s.pid===pid).sort((a,b)=>(a.at||"").localeCompare(b.at||""))}
 const perStamp=pid=>{const p=S.people.get(pid)||{};return (p.app||p.group==="APP")?2:1};
-function slotState(pid,k){if(k==null)return "";const n=perStamp(pid);const sp=spinsOf(pid).filter(s=>!isRespin(s)).slice(k*n,(k+1)*n);
+const nOf=s=>(+s.giros||perStamp(s.pid));
+function slotState(pid,k){if(k==null)return "";const L=calc(pid).list;let st=0;for(let i=0;i<k;i++)st+=nOf(L[i]);const n=nOf(L[k]);const sp=spinsOf(pid).filter(s=>!isRespin(s)).slice(st,st+n);
   return sp.length===n&&sp.every(s=>s.type==="sin"||s.delivered)?"canj":"due"}
 function redeemCount(p,c){let ok=0,due=0;c.list.forEach((s,k)=>{slotState(p.id,k)==="canj"?ok++:due++});return {ok,due}}
 function pendingFor(p,c){
