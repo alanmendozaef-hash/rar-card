@@ -1,6 +1,6 @@
 {
- "version": "2026-11-13T21:47:40+00:00",
- "updated": "2026-11-13T21:47:40+00:00",
+ "version": "2026-11-13T21:50:36+00:00",
+ "updated": "2026-11-13T21:50:36+00:00",
  "participants": [
   {
    "id": "alexa-lem",
@@ -175,7 +175,7 @@
    "name": "Luis Mendieta",
    "office": "Oficinas",
    "group": "Puebla",
-   "app": false,
+   "app": true,
    "delivered": {}
   },
   {
@@ -1042,6 +1042,27 @@
    "type": "gratis",
    "delivered": false,
    "at": "2026-11-13T21:44:22.000Z"
+  },
+  {
+   "pid": "lilia-argote",
+   "prize": "A la bio a la bao",
+   "type": "gratis",
+   "delivered": true,
+   "at": "2026-11-13T21:50:01.000Z"
+  },
+  {
+   "pid": "lilia-argote",
+   "prize": "A la bio a la bao",
+   "type": "gratis",
+   "delivered": true,
+   "at": "2026-11-13T21:50:02.000Z"
+  },
+  {
+   "pid": "lilia-argote",
+   "prize": "A la bio a la bao",
+   "type": "gratis",
+   "delivered": true,
+   "at": "2026-11-13T21:50:03.000Z"
   }
  ]
 }
