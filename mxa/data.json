@@ -1,6 +1,6 @@
 {
- "version": "2026-11-17T17:03:29+00:00",
- "updated": "2026-11-17T17:03:29+00:00",
+ "version": "2026-11-17T17:22:14+00:00",
+ "updated": "2026-11-17T17:22:14+00:00",
  "regions": [
   {
    "id": "acapulco",
@@ -558,6 +558,12 @@
    "vertical": "referral",
    "by": "sales",
    "at": "2026-11-17T17:02:01.000Z"
+  },
+  {
+   "rid": "morelia",
+   "vertical": "referral",
+   "by": "sales",
+   "at": "2026-11-17T17:20:04.000Z"
   }
  ]
 }
