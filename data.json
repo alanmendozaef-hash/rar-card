@@ -1,6 +1,6 @@
 {
- "version": "2026-11-17T17:03:02+00:00",
- "updated": "2026-11-17T17:03:02+00:00",
+ "version": "2026-11-17T17:21:11+00:00",
+ "updated": "2026-11-17T17:21:11+00:00",
  "participants": [
   {
    "id": "alexa-lem",
@@ -618,6 +618,36 @@
    "vertical": "referral",
    "source": "Referral general",
    "at": "2026-11-17T17:02:02.000Z"
+  },
+  {
+   "pid": "arturo-hernandez",
+   "vertical": "ambassador",
+   "source": "Ambassador",
+   "at": "2026-11-17T17:20:01.000Z"
+  },
+  {
+   "pid": "arturo-hernandez",
+   "vertical": "returnee",
+   "source": "ExPax General",
+   "at": "2026-11-17T17:20:02.000Z"
+  },
+  {
+   "pid": "arturo-hernandez",
+   "vertical": "referral",
+   "source": "Referral general",
+   "at": "2026-11-17T17:20:03.000Z"
+  },
+  {
+   "pid": "carol-barrera",
+   "vertical": "referral",
+   "source": "Referral general",
+   "at": "2026-11-17T17:20:04.000Z"
+  },
+  {
+   "pid": "jaidy-amador",
+   "vertical": "referral",
+   "source": "Referral general",
+   "at": "2026-11-17T17:20:05.000Z"
   }
  ],
  "spins": [
