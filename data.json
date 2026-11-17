@@ -1,6 +1,6 @@
 {
- "version": "2026-11-17T17:22:35+00:00",
- "updated": "2026-11-17T17:22:35+00:00",
+ "version": "2026-11-17T17:44:30+00:00",
+ "updated": "2026-11-17T17:44:30+00:00",
  "participants": [
   {
    "id": "alexa-lem",
@@ -649,6 +649,13 @@
    "vertical": "referral",
    "source": "Referral general",
    "at": "2026-11-17T17:20:05.000Z"
+  },
+  {
+   "pid": "luciana-araujo",
+   "vertical": "referral",
+   "source": "Referral general",
+   "at": "2026-11-17T17:43:30.000Z",
+   "giros": 1
   }
  ],
  "spins": [
