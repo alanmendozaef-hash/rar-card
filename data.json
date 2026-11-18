@@ -1,6 +1,6 @@
 {
- "version": "2026-11-18T18:07:10+00:00",
- "updated": "2026-11-18T18:07:10+00:00",
+ "version": "2026-11-18T18:16:06+00:00",
+ "updated": "2026-11-18T18:16:06+00:00",
  "participants": [
   {
    "id": "alexa-lem",
@@ -676,6 +676,12 @@
    "vertical": "returnee",
    "source": "ExPax General",
    "at": "2026-11-18T18:06:30.000Z"
+  },
+  {
+   "pid": "daniela-fernandez",
+   "vertical": "returnee",
+   "source": "ExPax General",
+   "at": "2026-11-18T18:15:30.000Z"
   }
  ],
  "spins": [
