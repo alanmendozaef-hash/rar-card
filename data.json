@@ -1,6 +1,6 @@
 {
- "version": "2026-11-17T17:44:30+00:00",
- "updated": "2026-11-17T17:44:30+00:00",
+ "version": "2026-11-18T00:01:57+00:00",
+ "updated": "2026-11-18T00:01:57+00:00",
  "participants": [
   {
    "id": "alexa-lem",
@@ -656,6 +656,13 @@
    "source": "Referral general",
    "at": "2026-11-17T17:43:30.000Z",
    "giros": 1
+  },
+  {
+   "pid": "lilia-argote",
+   "vertical": "referral",
+   "source": "Referral general",
+   "at": "2026-11-18T00:01:02.000Z",
+   "giros": 2
   }
  ],
  "spins": [
