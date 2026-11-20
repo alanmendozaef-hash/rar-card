@@ -1,6 +1,6 @@
 {
- "version": "2026-11-18T18:16:06+00:00",
- "updated": "2026-11-18T18:16:06+00:00",
+ "version": "2026-11-20T21:06:15+00:00",
+ "updated": "2026-11-20T21:06:15+00:00",
  "participants": [
   {
    "id": "alexa-lem",
@@ -682,6 +682,54 @@
    "vertical": "returnee",
    "source": "ExPax General",
    "at": "2026-11-18T18:15:30.000Z"
+  },
+  {
+   "pid": "jaidy-amador",
+   "vertical": "referral",
+   "source": "Referral general",
+   "at": "2026-11-20T21:05:01.000Z"
+  },
+  {
+   "pid": "luis-mendieta",
+   "vertical": "ambassador",
+   "source": "Ambassador",
+   "at": "2026-11-20T21:05:02.000Z",
+   "giros": 2
+  },
+  {
+   "pid": "luciana-araujo",
+   "vertical": "returnee",
+   "source": "ExPax General",
+   "at": "2026-11-20T21:05:03.000Z",
+   "giros": 1
+  },
+  {
+   "pid": "lilia-argote",
+   "vertical": "returnee",
+   "source": "ExPax General",
+   "at": "2026-11-20T21:05:04.000Z",
+   "giros": 2
+  },
+  {
+   "pid": "luis-mendieta",
+   "vertical": "referral",
+   "source": "Referral general",
+   "at": "2026-11-20T21:05:05.000Z",
+   "giros": 2
+  },
+  {
+   "pid": "luis-mendieta",
+   "vertical": "referral",
+   "source": "Referral general",
+   "at": "2026-11-20T21:05:06.000Z",
+   "giros": 2
+  },
+  {
+   "pid": "luis-mendieta",
+   "vertical": "referral",
+   "source": "Referral general",
+   "at": "2026-11-20T21:05:07.000Z",
+   "giros": 2
   }
  ],
  "spins": [
