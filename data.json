@@ -1,6 +1,6 @@
 {
- "version": "2026-11-23T17:34:22+00:00",
- "updated": "2026-11-23T17:34:22+00:00",
+ "version": "2026-11-23T17:35:18+00:00",
+ "updated": "2026-11-23T17:35:18+00:00",
  "participants": [
   {
    "id": "alexa-lem",
@@ -806,6 +806,13 @@
    "vertical": "referral",
    "source": "Referral general",
    "at": "2026-11-23T17:35:01.000Z",
+   "giros": 1
+  },
+  {
+   "pid": "carol-barrera",
+   "vertical": "ambassador",
+   "source": "Ambassador",
+   "at": "2026-11-23T17:36:00.000Z",
    "giros": 1
   }
  ],
