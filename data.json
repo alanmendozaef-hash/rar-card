@@ -1,6 +1,6 @@
 {
- "version": "2026-11-24T19:23:29+00:00",
- "updated": "2026-11-24T19:23:29+00:00",
+ "version": "2026-11-24T23:58:55+00:00",
+ "updated": "2026-11-24T23:58:55+00:00",
  "participants": [
   {
    "id": "alexa-lem",
@@ -862,6 +862,20 @@
    "vertical": "referral",
    "source": "Referral general",
    "at": "2026-11-24T19:23:04.000Z",
+   "giros": 1
+  },
+  {
+   "pid": "juana-garza",
+   "vertical": "returnee",
+   "source": "ExPax General",
+   "at": "2026-11-24T23:58:01.000Z",
+   "giros": 1
+  },
+  {
+   "pid": "juana-garza",
+   "vertical": "referral",
+   "source": "Referral general",
+   "at": "2026-11-24T23:58:02.000Z",
    "giros": 1
   }
  ],
