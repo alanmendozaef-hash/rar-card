@@ -1,6 +1,6 @@
 {
- "version": "2026-11-23T17:34:07+00:00",
- "updated": "2026-11-23T17:34:07+00:00",
+ "version": "2026-11-24T23:58:47+00:00",
+ "updated": "2026-11-24T23:58:47+00:00",
  "regions": [
   {
    "id": "acapulco",
@@ -588,6 +588,24 @@
    "vertical": "ambassador",
    "by": "rep",
    "at": "2026-11-23T17:35:02.000Z"
+  },
+  {
+   "rid": "oaxaca",
+   "vertical": "returnee",
+   "by": "rep",
+   "at": "2026-11-24T23:58:00.000Z"
+  },
+  {
+   "rid": "cd-victoria",
+   "vertical": "returnee",
+   "by": "sales",
+   "at": "2026-11-24T23:58:01.000Z"
+  },
+  {
+   "rid": "cd-victoria",
+   "vertical": "referral",
+   "by": "sales",
+   "at": "2026-11-24T23:58:02.000Z"
   }
  ]
 }
