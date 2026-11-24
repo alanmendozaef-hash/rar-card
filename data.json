@@ -1,6 +1,6 @@
 {
- "version": "2026-11-23T23:55:54+00:00",
- "updated": "2026-11-23T23:55:54+00:00",
+ "version": "2026-11-24T19:23:29+00:00",
+ "updated": "2026-11-24T19:23:29+00:00",
  "participants": [
   {
    "id": "alexa-lem",
@@ -827,6 +827,41 @@
    "vertical": "referral",
    "source": "Referral general",
    "at": "2026-11-23T23:55:01.000Z",
+   "giros": 1
+  },
+  {
+   "pid": "jaidy-amador",
+   "vertical": "referral",
+   "source": "Referral general",
+   "at": "2026-11-24T19:23:00.000Z",
+   "giros": 1
+  },
+  {
+   "pid": "jaidy-amador",
+   "vertical": "ambassador",
+   "source": "Ambassador",
+   "at": "2026-11-24T19:23:01.000Z",
+   "giros": 1
+  },
+  {
+   "pid": "osiel-leon",
+   "vertical": "referral",
+   "source": "Referral general",
+   "at": "2026-11-24T19:23:02.000Z",
+   "giros": 1
+  },
+  {
+   "pid": "arturo-hernandez",
+   "vertical": "referral",
+   "source": "Referral general",
+   "at": "2026-11-24T19:23:03.000Z",
+   "giros": 1
+  },
+  {
+   "pid": "barbara-garcia",
+   "vertical": "referral",
+   "source": "Referral general",
+   "at": "2026-11-24T19:23:04.000Z",
    "giros": 1
   }
  ],
