@@ -1,6 +1,6 @@
 {
- "version": "2026-11-25T17:56:31+00:00",
- "updated": "2026-11-25T17:56:31+00:00",
+ "version": "2026-11-26T21:08:39+00:00",
+ "updated": "2026-11-26T21:08:39+00:00",
  "participants": [
   {
    "id": "alexa-lem",
@@ -897,6 +897,27 @@
    "vertical": "ambassador",
    "source": "Ambassador",
    "at": "2026-11-25T17:56:02.000Z",
+   "giros": 1
+  },
+  {
+   "pid": "jorge-jimenez",
+   "vertical": "referral",
+   "source": "Referral general",
+   "at": "2026-11-26T21:08:00.000Z",
+   "giros": 1
+  },
+  {
+   "pid": "mirna-perez",
+   "vertical": "referral",
+   "source": "Referral general",
+   "at": "2026-11-26T21:08:01.000Z",
+   "giros": 1
+  },
+  {
+   "pid": "mirna-perez",
+   "vertical": "ambassador",
+   "source": "Ambassador",
+   "at": "2026-11-26T21:08:02.000Z",
    "giros": 1
   }
  ],
