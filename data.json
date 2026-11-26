@@ -1,6 +1,6 @@
 {
- "version": "2026-11-26T21:39:54+00:00",
- "updated": "2026-11-26T21:39:54+00:00",
+ "version": "2026-11-26T22:30:49+00:00",
+ "updated": "2026-11-26T22:30:49+00:00",
  "participants": [
   {
    "id": "alexa-lem",
@@ -925,6 +925,13 @@
    "vertical": "referral",
    "source": "Referral general",
    "at": "2026-11-26T21:39:00.000Z",
+   "giros": 1
+  },
+  {
+   "pid": "arturo-hernandez",
+   "vertical": "referral",
+   "source": "Referral general",
+   "at": "2026-11-26T22:30:00.000Z",
    "giros": 1
   }
  ],
