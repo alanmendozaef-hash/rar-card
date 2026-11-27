@@ -1,6 +1,6 @@
 {
- "version": "2026-11-27T18:02:32+00:00",
- "updated": "2026-11-27T18:02:32+00:00",
+ "version": "2026-11-27T18:09:08+00:00",
+ "updated": "2026-11-27T18:09:08+00:00",
  "participants": [
   {
    "id": "alexa-lem",
@@ -1629,6 +1629,27 @@
    "type": "gratis",
    "delivered": true,
    "at": "2026-11-27T18:02:00.000Z"
+  },
+  {
+   "pid": "mirna-perez",
+   "prize": "A la bio a la bao",
+   "type": "gratis",
+   "delivered": true,
+   "at": "2026-11-27T18:08:00.000Z"
+  },
+  {
+   "pid": "mirna-perez",
+   "prize": "Home Office",
+   "type": "costo",
+   "delivered": false,
+   "at": "2026-11-27T18:08:01.000Z"
+  },
+  {
+   "pid": "mirna-perez",
+   "prize": "Expense café $100",
+   "type": "costo",
+   "delivered": false,
+   "at": "2026-11-27T18:08:02.000Z"
   }
  ]
 }
