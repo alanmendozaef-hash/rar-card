@@ -1,6 +1,6 @@
 {
- "version": "2026-11-27T16:19:08+00:00",
- "updated": "2026-11-27T16:19:08+00:00",
+ "version": "2026-11-27T17:58:16+00:00",
+ "updated": "2026-11-27T17:58:16+00:00",
  "participants": [
   {
    "id": "alexa-lem",
@@ -1453,6 +1453,132 @@
    "type": "gratis",
    "delivered": false,
    "at": "2026-11-13T22:22:05.000Z"
+  },
+  {
+   "pid": "sebastian-zarate",
+   "prize": "Abrazo de tu bestie laboral",
+   "type": "gratis",
+   "delivered": true,
+   "at": "2026-11-27T17:57:00.000Z"
+  },
+  {
+   "pid": "sebastian-zarate",
+   "prize": "Home Office",
+   "type": "costo",
+   "delivered": false,
+   "at": "2026-11-27T17:57:01.000Z"
+  },
+  {
+   "pid": "sebastian-zarate",
+   "prize": "Amazon $100 (acumulable)",
+   "type": "costo",
+   "delivered": false,
+   "at": "2026-11-27T17:57:02.000Z"
+  },
+  {
+   "pid": "sebastian-zarate",
+   "prize": "Dulce RAR",
+   "type": "gratis",
+   "delivered": true,
+   "at": "2026-11-27T17:57:03.000Z"
+  },
+  {
+   "pid": "sebastian-zarate",
+   "prize": "Abrazo de tu bestie laboral",
+   "type": "gratis",
+   "delivered": true,
+   "at": "2026-11-27T17:57:04.000Z"
+  },
+  {
+   "pid": "arturo-hernandez",
+   "prize": "Home Office",
+   "type": "costo",
+   "delivered": false,
+   "at": "2026-11-27T17:57:05.000Z"
+  },
+  {
+   "pid": "arturo-hernandez",
+   "prize": "Suerte para la próxima",
+   "type": "sin",
+   "delivered": true,
+   "at": "2026-11-27T17:57:06.000Z"
+  },
+  {
+   "pid": "arturo-hernandez",
+   "prize": "Vuelve a girar",
+   "type": "sin",
+   "delivered": true,
+   "at": "2026-11-27T17:57:07.000Z"
+  },
+  {
+   "pid": "arturo-hernandez",
+   "prize": "Expense café $100",
+   "type": "costo",
+   "delivered": false,
+   "at": "2026-11-27T17:57:08.000Z"
+  },
+  {
+   "pid": "arturo-hernandez",
+   "prize": "Suerte para la próxima",
+   "type": "sin",
+   "delivered": true,
+   "at": "2026-11-27T17:57:09.000Z"
+  },
+  {
+   "pid": "arturo-hernandez",
+   "prize": "Gadget vintage EF",
+   "type": "gratis",
+   "delivered": false,
+   "at": "2026-11-27T17:57:10.000Z"
+  },
+  {
+   "pid": "arturo-hernandez",
+   "prize": "Abrazo de tu bestie laboral",
+   "type": "gratis",
+   "delivered": true,
+   "at": "2026-11-27T17:57:11.000Z"
+  },
+  {
+   "pid": "arturo-hernandez",
+   "prize": "Gadget vintage EF",
+   "type": "gratis",
+   "delivered": false,
+   "at": "2026-11-27T17:57:12.000Z"
+  },
+  {
+   "pid": "arturo-hernandez",
+   "prize": "Gadget vintage EF",
+   "type": "gratis",
+   "delivered": false,
+   "at": "2026-11-27T17:57:13.000Z"
+  },
+  {
+   "pid": "arturo-hernandez",
+   "prize": "Expense café $100",
+   "type": "costo",
+   "delivered": false,
+   "at": "2026-11-27T17:57:14.000Z"
+  },
+  {
+   "pid": "arturo-hernandez",
+   "prize": "Gadget vintage EF",
+   "type": "gratis",
+   "delivered": false,
+   "at": "2026-11-27T17:57:15.000Z"
+  },
+  {
+   "pid": "alondra-escudero",
+   "prize": "Expense café $100",
+   "type": "costo",
+   "delivered": false,
+   "at": "2026-11-27T17:57:16.000Z"
+  },
+  {
+   "pid": "marianne-rodriguez",
+   "prize": "Gadget vintage EF",
+   "type": "gratis",
+   "delivered": false,
+   "at": "2026-11-27T17:57:17.000Z"
   }
  ]
 }
