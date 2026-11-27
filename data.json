@@ -1,6 +1,6 @@
 {
- "version": "2026-11-27T18:09:08+00:00",
- "updated": "2026-11-27T18:09:08+00:00",
+ "version": "2026-11-27T18:09:47+00:00",
+ "updated": "2026-11-27T18:09:47+00:00",
  "participants": [
   {
    "id": "alexa-lem",
@@ -962,7 +962,7 @@
    "pid": "marianne-rodriguez",
    "prize": "Amazon $100 (acumulable)",
    "type": "costo",
-   "delivered": true,
+   "delivered": false,
    "at": "2026-11-11T21:44:03.000Z"
   },
   {
@@ -976,7 +976,7 @@
    "pid": "marianne-rodriguez",
    "prize": "Expense $100",
    "type": "costo",
-   "delivered": true,
+   "delivered": false,
    "at": "2026-11-11T21:44:05.000Z"
   },
   {
